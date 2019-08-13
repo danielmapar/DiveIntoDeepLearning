@@ -1,5 +1,7 @@
 # Dive Into Deep Learning 
 
+The following are my personal notes on the book Dive Into Deep Learning (http://numpy.d2l.ai/).
+
 ## Installation
 
 * For more details visit: 
@@ -85,3 +87,14 @@
 
     * Once both packages are installed, we now open the Jupyter notebook by: `jupyter notebook`
 
+        * At this point open http://localhost:8888 (which usually opens automatically) in the browser, then we can view and run the code in each section of the book.
+
+* Upgrade to a New Version
+
+    * Both this book and MXNet are keeping improving. Please check a new version from time to time.
+
+    1. The URL http://numpy.d2l.ai/d2l-en.zip always points to the latest contents.
+    2. Please upgrade “d2l” by pip install git+https://github.com/d2l-ai/d2l-en@numpy2.
+    3. For the CPU version, MXNet can be upgraded by `pip uninstall mxnet` then re-running the aforementioned `pip install https...whl` command.
+
+* For GPU support check [this](http://numpy.d2l.ai/chapter_install/install.html) link
